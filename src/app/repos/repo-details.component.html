@@ -1,0 +1,43 @@
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">Repo Detail</h3>
+    </div>
+  
+        <div class="panel-body">
+          <div *ngIf="repo" >
+          
+  <div >
+          <div class="row">
+            <div class="col-sm-12">
+         
+              <div class="row">
+                <div class="col-sm-4 ">
+                  <img class="imageClass" src="{{repo.owner.avatar_url}}"/>
+                </div>
+                <div class="col-sm-8">
+                  
+                  <h3>{{repo.name}}</h3>
+                  <p>{{repo.description}}</p>
+                  <span class="badge badge-info"> Stars:{{repo.stargazers_count}} </span>
+                  <span class="badge badge-info"> Issuses:{{repo.open_issues_count}} </span> By:{{repo.owner.login}} 
+
+            </div>
+              </div>
+            </div>
+  
+          </div>
+         
+  
+  
+  
+          </div>
+        </div>
+    
+    
+  
+      </div>
+  </div>
+  
+  
+  

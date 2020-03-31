@@ -4,24 +4,21 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This App  will list the most starred Github repos that were created in the last 30 days.
+Technology used in this app is angular.
 
-## Build
+## Code
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+In this App you can find :
 
-## Running unit tests
+-List repos component :this component list the most starred Github repos.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+-Repo details component :See rpo details.
 
-## Running end-to-end tests
+-Repo model :class repo.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+-Repos services.
